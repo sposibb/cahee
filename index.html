@@ -62,12 +62,40 @@
                   <span class="text_button"> GET FREE NOW</span>
                 </button>
               </div>
-              <div class="ico">
-                <a href="#">
-                  <img src="img/ScrollIcon.jpg" alt="ScrollIcon" />
-                </a>
-              </div>
             </div>
+          </div>
+          <div class="ico">
+            <a href="#">
+              <svg
+                width="24"
+                height="40"
+                viewBox="0 0 24 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <rect width="24" height="40" fill="url(#pattern0)" />
+                <defs>
+                  <pattern
+                    id="pattern0"
+                    patternContentUnits="objectBoundingBox"
+                    width="1"
+                    height="1"
+                  >
+                    <use
+                      xlink:href="#image0"
+                      transform="scale(0.0416667 0.025)"
+                    />
+                  </pattern>
+                  <image
+                    id="image0"
+                    width="24"
+                    height="40"
+                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAMAAADT08pnAAAAAXNSR0IB2cksfwAAAMBQTFRFAAAAAAAAJCQkJycnJycnJiYmJiYmJiYmJycnJiYmJiYmJiYmJycnJiYmJiYmJiYmJiYmJSUlJiYmJiYmJiYmJiYmJiYmJiYmMzMzJycnJiYmJiYmKSkpJiYmJiYmJycnJycnKysrJiYmJiYmKCgoJiYmJiYmKSkpJSUlJiYmJSUlJiYmJiYmJiYmJSUlJycnJycnJiYmJiYmJiYmJiYmJiYmJiYmJCQkJiYmJiYmJycnJiYmJiYmJiYmJiYmJiYmgs58gQAAAEB0Uk5TAAIqcLLe8S+Y9//4Y+LroXho6nn773oiBWL6zCzjzk7NBpruLWVxH51ysZzd8meelzXW1Dag6Svtmy5mmfmz88uYPyAAAAE1SURBVHic5ZPrdoIwEIRXENERSwQFqnhBqtha7VVpvb7/WwmJmFR5g86vzU42cM7OR8RV0fSqUasZVV2rkCKz3sBFzbop+1YLeLBZu81sB2hZRd/toOv5QV4GvtdFxxX9xx76yrjZR4/PhAMMfX57NOJT/hiDkCiaIH7iV6fAlBdhjElEWhOeeMMGbFF5aGo0g5OI4xyYiypx8EwvsCNxXAALUUU2qvQKRrcGMRi0xOreWGFJDVj3hoWGYrxdP35jvAP1UuPj8+u71KAgoHJD6n8bclGK8kUZ19UqylcrwyAVrbMwzLBJbg0eHxk4KTcPXB7R8G8//cFvxEM99tW+P+Shzn46w2Ar+9sCAw5OLMGJr+AI1DZrttux9UZFLaNofyjgPOwVujKcU/1onE7GUU8vOJ8Bc7EdONjrPQkAAAAASUVORK5CYII="
+                  />
+                </defs>
+              </svg>
+            </a>
           </div>
         </section>
       </header>
@@ -140,17 +168,33 @@
         <div class="container">
           <div class="row">
             <div class="col-8">
-              <img src="img/Image-5.png" alt="Peach" />
+              <img class="section4__img" src="img/Image-5.png" alt="Peach" />
             </div>
             <div class="col-4">
-              <img src="img/Image-4.png" alt="Blueberry" />
-              <img src="img/Image-3.png" alt="Black raspberry" />
+              <img
+                class="section4__img"
+                src="img/Image-4.png"
+                alt="Blueberry"
+              />
+              <img
+                class="section4__img"
+                src="img/Image-3.png"
+                alt="Black raspberry"
+              />
             </div>
             <div class="col-6">
-              <img src="img/Image-2.png" alt="Blueberry milk" />
+              <img
+                class="section4__img"
+                src="img/Image-2.png"
+                alt="Blueberry milk"
+              />
             </div>
             <div class="col-6">
-              <img class="last_img" src="img/Image-1.png" alt="Persimmon" />
+              <img
+                class="section4__img last-photo"
+                src="img/Image-1.png"
+                alt="Persimmon"
+              />
             </div>
             <div class="col-1 offset-4"></div>
             <div class="col-3">
@@ -251,51 +295,87 @@
           </div>
         </div>
       </section>
-      <section class="section7">
-        <h2 class="section7__title section7_title">Contact</h2>
-        <p class="section7__subtitle sectio7_subtitle">
+      <footer class="footer">
+        <h2 class="footer__title footer_title">Contact</h2>
+        <p class="footer__subtitle footer_subtitle">
           For new projects, ideas, business or anything you'd like to discuss,
           contact with me!
         </p>
         <div class="container">
           <div class="row">
-            <div class="col-6"></div>
-            <form class="footer_form" action="get">
-              <label for="text"></label>
-              <input
-                type="text"
-                name="text"
-                id="text"
-                placeholder="Auskteez Tran"
-              />
+            <div class="col-8">
+              <form class="footer__form" action="get">
+                <label for="text"></label>
+                <input
+                  type="text"
+                  name="text"
+                  id="text"
+                  placeholder="Auskteez Tran"
+                />
 
-              <label for="email"></label>
-              <input
-                type="email"
-                name="email"
-                id="email1"
-                placeholder="Your email..."
-              />
+                <label for="email"></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email1"
+                  placeholder="Your email..."
+                />
 
-              <label for="number"></label>
-              <input
-                type="number"
-                name="number"
-                id="number"
-                placeholder="Your phone number..."
-              />
-              <label for="textarea"></label>
-              <textarea
-                cols="30"
-                rows="10"
-                id="textarea"
-                name="textarea"
-                placeholder="Your message..."
-              ></textarea>
-            </form>
+                <label for="number"></label>
+                <input
+                  type="number"
+                  name="number"
+                  id="number"
+                  placeholder="Your phone number..."
+                />
+                <label for="textarea"></label>
+                <textarea
+                  cols="30"
+                  rows="10"
+                  id="textarea"
+                  name="textarea"
+                  placeholder="Your message..."
+                ></textarea>
+              </form>
+              <div class="col-4">
+                <div class="footer__info">
+                  <p class="info__bottom">
+                    <b>ADDRESS</b> <br />
+                    123 City name, Street, City, Country
+                  </p>
+                  <p class="info__bottom">
+                    <b>EMAIL </b> <br />
+                    cahee@domain.com
+                  </p>
+                  <p class="info__bottom">
+                    <b>PHONE</b> <br />
+                    +012 345 6789
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-4">
+              <p class="footer_footer_p1">
+                © 2021 Company. All right reserved.
+              </p>
+            </div>
+            <div class="col-4">
+              <div class="footer_logo_img">
+                <img src="img/logo (1).png" alt="Logo" />
+              </div>
+            </div>
+            <div class="col-4">
+              <p class="footer_footer_p2">
+                Made with <span class="footer_love">LOVE</span> by Sposib
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
