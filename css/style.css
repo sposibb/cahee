@@ -10486,4 +10486,30 @@ li {
   margin-left: 39%;
   margin-bottom: 92px;
 }
+
+.section7 {
+  background: url(../img/footerBG.png) center center no-repeat;
+  background-size: cover;
+}
+.section7__title, .section7__subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  text-align: center;
+  color: #262626;
+}
+.section7__title {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+}
+.section7__subtitle {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+}
+
+.section7_title {
+  padding-top: 92px;
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=style.css.map */
