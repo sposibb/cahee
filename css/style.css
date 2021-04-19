@@ -570,21 +570,6 @@ sup {
   top: -0.5em;
 }
 
-a {
-  color: #0d6efd;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #0a58ca;
-}
-
-a:not([href]):not([class]),
-a:not([href]):not([class]):hover {
-  color: inherit;
-  text-decoration: none;
-}
-
 code,
 kbd,
 pre,
@@ -16604,6 +16589,8 @@ fieldset:disabled .btn {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 
 .section1 {
@@ -16727,7 +16714,8 @@ li {
 }
 
 .section3 {
-  background: url(../img/Tomatoes.png) center center no-repeat #70bfff;
+  background: url(../img/Tomatoes.png) 900px center no-repeat #70bfff;
+  display: flex;
 }
 .section3__list {
   text-decoration: none;
@@ -16735,5 +16723,46 @@ li {
 }
 .section3__item {
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.5));
+  background: #fff;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #262626;
+}
+.section3__img {
+  border-left: solid 2px #9d9d9d;
+}
+.section3__item:last-child {
+  margin-bottom: 170px;
+}
+.section3__title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 106px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.section3_item {
+  margin-bottom: 18px;
+}
+
+.section3_list {
+  padding-top: 170px;
+}
+
+.section3_title {
+  margin-top: 230px;
 }
 /*# sourceMappingURL=style.css.map */
