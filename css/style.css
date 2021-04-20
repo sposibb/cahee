@@ -10281,7 +10281,7 @@ li {
 }
 
 .section3_title {
-  margin-top: 230px;
+  margin-top: 380px;
 }
 
 .section4 {
@@ -10300,6 +10300,7 @@ li {
   font-weight: bold;
   font-size: 90px;
   line-height: 106px;
+  margin: 0 auto;
 }
 .section4__subtitle {
   font-weight: 300;
@@ -10424,11 +10425,13 @@ li {
   font-weight: bold;
   font-size: 90px;
   line-height: 106px;
+  margin: 0 auto;
 }
 .section6__subtitle {
   font-weight: 300;
   font-size: 17px;
   line-height: 25px;
+  margin: 0 auto;
 }
 .section6__thumbnail1 {
   background: url(../img/thumbnail.png) center center no-repeat;
@@ -10458,7 +10461,6 @@ li {
 .section6_subtitle {
   margin-bottom: 50px;
   width: 592px;
-  margin-left: 30%;
 }
 
 .thumbnail {

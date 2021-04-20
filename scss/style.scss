@@ -176,7 +176,7 @@ li {
   padding-top: 170px;
 }
 .section3_title {
-  margin-top: 230px;
+  margin-top: 380px;
 }
 
 .section4 {
@@ -195,6 +195,7 @@ li {
     font-weight: bold;
     font-size: 90px;
     line-height: 106px;
+    margin: 0 auto;
   }
   &__subtitle {
     font-weight: 300;
@@ -311,11 +312,13 @@ li {
     font-weight: bold;
     font-size: 90px;
     line-height: 106px;
+    margin: 0 auto;
   }
   &__subtitle {
     font-weight: 300;
     font-size: 17px;
     line-height: 25px;
+    margin: 0 auto;
   }
   &__thumbnail1 {
     background: url(../img/thumbnail.png) center center no-repeat;
@@ -345,7 +348,6 @@ li {
 .section6_subtitle {
   margin-bottom: 50px;
   width: 592px;
-  margin-left: 30%;
 }
 .thumbnail {
   padding-left: 30px;
