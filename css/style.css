@@ -10539,7 +10539,26 @@ li {
   top: 328px;
   right: 400px;
 }
-.footer .info__bottom {
+.footer__rights, .footer__avtor {
+  font-family: "Raleway";
+  font-style: normal;
+  color: #b9b9b9;
+  font-weight: 300;
+}
+.footer__rights {
+  font-size: 16px;
+  line-height: 19px;
+}
+.footer__avtor {
+  font-size: 15px;
+  line-height: 18px;
+}
+.footer__background {
+  background: url(../img/BG_footer.png) center center no-repeat;
+  background-size: cover;
+}
+
+.info__bottom {
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
@@ -10600,5 +10619,25 @@ input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+.footer_rights {
+  padding-top: 36px;
+  margin-left: 100px;
+}
+
+.footer_logo {
+  padding-top: 30px;
+  margin-left: 150px;
+}
+
+.footer_avtor {
+  padding-top: 36px;
+  margin-left: 150px;
+  margin-bottom: 36px;
+}
+
+.avtor_love {
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */
